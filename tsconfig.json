@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx":"react",
+    "jsxFactory":"h",
+    "jsxFragmentFactory":"YOU_CANT_USE_FRAGMENTS",
+    "types": ["@mercuryworkshop/alicejs"],
+    "outDir": "./dist",
+  }
+}
