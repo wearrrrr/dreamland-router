@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/esbuild src/* --bundle --outdir=dist/ --loader:.js=jsx"
+    "build": "npx esbuild src/* --bundle --outdir=dist/ --loader:.js=jsx --loader:.html=copy"
   },
   "keywords": [],
   "author": "",
